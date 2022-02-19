@@ -1,0 +1,53 @@
+.side-bar{
+    width: 23%;
+    height: 40rem;
+    border: 1px solid #1d1816;
+    background-color: #92320c;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 1%;
+    color: white;
+}
+
+.side-bar input[type=text] {
+    border: none;
+    height: 2rem;
+    background-color: #b6aba6;
+    border-radius: 10px;
+} 
+
+.side-bar input[type=text]:hover ,
+.side-bar input[type=text]:active{
+    border: none;
+    outline: none;
+}
+
+.side-bar div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 20px;
+    background: #b6aba6;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 7px;
+  }
+  
+  .slider:hover {
+    opacity: .7;
+  }
+
+  .list li {
+      line-height: 200%;
+  }
+
+  .list li:hover{
+      color:#1d1816 ;
+      cursor: pointer;
+  }
