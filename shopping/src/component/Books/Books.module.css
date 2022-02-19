@@ -1,0 +1,64 @@
+.continer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image input {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px
+}
+
+.__author{
+    font-size: 15px;
+}
+
+.__amount{
+    display: flex;
+    justify-content: space-around;
+}
+
+.__amount div {
+    display: flex;
+}
+
+.continer div {
+    line-height: 300%;
+    font-size: 13px;
+}
+ 
+.__buy{
+  color: white;
+  margin: auto;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.__buy:hover,
+.__buy:active,
+.amountButton:hover,
+.amountButton:active{
+  background-color: white;
+  color: black;
+  transition-duration: 0.3s;
+
+}
+
+.amountButton{
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 2px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+
+

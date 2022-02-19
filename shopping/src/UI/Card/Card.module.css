@@ -1,11 +1,11 @@
 .card{
     /* display: flex; */
-    width: 30%;
-    height: 400px;
+    width: 31%;
+    height: 650px;
     margin: 5px;
     border: 2px solid #1d1816;
-    background-color: #4d1601;
-    color: white;
+    background-color: rgb(155, 145, 145);
+    color: black;
     border-radius: 25px;
     text-align: center;
 }
